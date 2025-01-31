@@ -1,0 +1,28 @@
+{
+  "name": "fg-blog",
+  "version": "1.0.0",
+  "description": "blog",
+  "main": "bin/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/server.js"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Felipe Alves Garcia",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "connect-flash": "^0.1.1",
+    "connect-session": "^0.0.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-flash": "^0.0.2",
+    "express-handlebars": "^8.0.1",
+    "express-session": "^1.18.1",
+    "flash": "^1.1.0",
+    "mongoose": "^8.9.5",
+    "sesion": "^0.0.0"
+  }
+}
